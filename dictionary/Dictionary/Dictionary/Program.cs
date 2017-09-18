@@ -17,6 +17,11 @@ namespace Dictionary
                 { "alma", "apple" },
                 { "fa", "tree" }
             };
+            Console.WriteLine("Type in a hungarian word: ");
+            string hungarianWord = Console.ReadLine();
+            Console.WriteLine("Type in the english translation of the word: ");
+            string englishWord = Console.ReadLine();
+            AddWord(hungarianWord, englishWord);
         }
 
         public static void AddWord(string hungarianWord, string englishWord)
