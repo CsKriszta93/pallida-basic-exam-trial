@@ -1,0 +1,2 @@
+C:\Users\Kriszta93\Documents\pallida-basic-exam-trial-master\oddfilter\OddFilter\OddFilter\obj\Debug\OddFilter.csprojResolveAssemblyReference.cache
+C:\Users\Kriszta93\Documents\pallida-basic-exam-trial-master\oddfilter\OddFilter\OddFilter\obj\Debug\OddFilter.csproj.CoreCompileInputs.cache
