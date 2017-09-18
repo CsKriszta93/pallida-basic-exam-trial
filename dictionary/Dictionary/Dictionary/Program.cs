@@ -41,5 +41,13 @@ namespace Dictionary
             }
         }
 
+        public static string TranslateToHungarian(string english)
+        {
+            string hungarian = Console.ReadLine();
+            if (!Dictionary.ContainsValue(hungarian))
+            {
+                return
+            }
+        }
     }
 }
