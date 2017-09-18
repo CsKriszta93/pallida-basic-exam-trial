@@ -26,12 +26,19 @@ namespace Dictionary
 
         public static void AddWord(string hungarianWord, string englishWord)
         {
+            foreach 
             Dictionary.Add(hungarianWord, englishWord);
         }
 
         public static string TranslateToEnglish(string hungarian)
         {
-            
+            var key = Console.ReadLine();
+            var value = "";
+            var dicVal = string.Empty;
+            if (Dictionary.TryGetValue(key, out dicVal) && dicVal.Contains(value))
+            {
+                return value;
+            }
         }
 
     }
